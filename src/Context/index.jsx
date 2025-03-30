@@ -63,7 +63,7 @@ export const myProjects = [
         subdesc:
             'Secure ride-sharing platform with JWT & bcrypt authentication, real-time ride updates via Socket.io, interactive Google Maps integration, seamless routing with React Router DOM, smooth animations using GSAP, secure API calls via Axios, and an optimized Express.js & MongoDB backend.',
         href: 'https://github.com/Gautam4513/uber',
-        texture: '/textures/project/project1.mp4',
+        texture: '/textures/project/project-1.mp4',
         logo: '/assets/uber.webp',
         logoStyle: {
             backgroundColor: '#ffffff',
@@ -105,7 +105,7 @@ export const myProjects = [
         subdesc:
             'Responsive game with smooth animations, score tracking, sound effects, and interactive gameplay using HTML5, CSS3, JavaScript (ES6+), and the HTML5 Canvas',
         href: 'https://github.com/Gautam4513/flappy-bird-game',
-        texture: '/textures/project/project2.mp4',
+        texture: '/textures/project/project-2.mp4',
         logo: '/assets/project-logo2.jpeg',
         logoStyle: {
             backgroundColor: '#ffffff',
@@ -138,7 +138,7 @@ export const myProjects = [
         subdesc:
             'The Kaleidoscope project is an interactive digital art tool that transforms user-drawn sketches into intricate and symmetrical rangoli-inspired designs. Built with HTML, JavaScript, Tailwind CSS, and P5.js, it leverages creative coding to generate dynamic and visually appealing patterns in real time. The project enhances artistic expression by mirroring and repeating strokes, turning simple inputs into stunning geometric artwork.',
         href: 'https://github.com/Gautam4513/Kaleidoscope',
-        texture: '/textures/project/project3.mp4',
+        texture: '/textures/project/project-3.mp4',
         logo: '/assets/project-logo3.png',
         logoStyle: {
             backgroundColor: '#60f5a1',
@@ -177,7 +177,7 @@ export const myProjects = [
         subdesc:
             'This project is a web-based hand-tracking application that allows users to draw on a canvas using hand gestures. It leverages ML5.js for hand tracking and P5.js for interactive graphics. Simply show the "👆" (Index finger up) gesture, and the canvas will start drawing as you move your hand.',
         href: 'https://github.com/Gautam4513/ml5-js-hand-drawing',
-        texture: '/textures/project/project4.mp4',
+        texture: '/textures/project/project-4.mp4',
         logo: '/assets/project-logo4.jpg',
         logoStyle: {
             backgroundColor: '#ffffff',
@@ -219,7 +219,7 @@ export const myProjects = [
         subdesc:
             'This project showcases a visually engaging 3D solar system with four planets, leveraging Three.js for rendering, Tailwind CSS for styling, and JavaScript for interactivity. It includes dynamic lighting, orbital motion, and smooth animations for an interactive exploration of space.',
         href: 'https://github.com/Gautam4513/Solay-system',
-        texture: '/textures/project/project5.mp4',
+        texture: '/textures/project/project-5.mp4',
         logo: '/assets/project-logo5.png',
         logoStyle: {
             backgroundColor: '#ffffff',
