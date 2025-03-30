@@ -26,7 +26,7 @@ const Footer = () => {
                 </div>
             </div>
             <p className='text-white-500'>
-            &copy; 2025 GM World. All rights rederved.
+            &copy; 2025 GM World. All rights reserved.
             </p>
         </section>
     )

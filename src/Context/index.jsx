@@ -21,52 +21,52 @@ export const navLinks = [
     },
 ];
 
-export const clientReviews = [
-    {
-        id: 1,
-        name: 'Emily Johnson',
-        position: 'Marketing Director at GreenLeaf',
-        img: 'assets/review1.png',
-        review:
-            'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-    },
-    {
-        id: 2,
-        name: 'Mark Rogers',
-        position: 'Founder of TechGear Shop',
-        img: 'assets/review2.png',
-        review:
-            'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-    },
-    {
-        id: 3,
-        name: 'John Dohsas',
-        position: 'Project Manager at UrbanTech ',
-        img: 'assets/review3.png',
-        review:
-            'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-    },
-    {
-        id: 4,
-        name: 'Ether Smith',
-        position: 'CEO of BrightStar Enterprises',
-        img: 'assets/review4.png',
-        review:
-            'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
-    },
-];
+// export const clientReviews = [
+//     {
+//         id: 1,
+//         name: 'Emily Johnson',
+//         position: 'Marketing Director at GreenLeaf',
+//         img: 'assets/review1.png',
+//         review:
+//             'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+//     },
+//     {
+//         id: 2,
+//         name: 'Mark Rogers',
+//         position: 'Founder of TechGear Shop',
+//         img: 'assets/review2.png',
+//         review:
+//             'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+//     },
+//     {
+//         id: 3,
+//         name: 'John Dohsas',
+//         position: 'Project Manager at UrbanTech ',
+//         img: 'assets/review3.png',
+//         review:
+//             'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+//     },
+//     {
+//         id: 4,
+//         name: 'Ether Smith',
+//         position: 'CEO of BrightStar Enterprises',
+//         img: 'assets/review4.png',
+//         review:
+//             'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+//     },
+// ];
 
 export const myProjects = [
     {
-        title: 'Podcastr - AI Podcast Platform',
-        desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+        title: '🚖 Uber Clone - MERN Stack Project',
+        desc: "This is a fully functional Uber Clone built using the MERN stack, integrating real-time communication, authentication, and smooth UI animations.",
         subdesc:
-            'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+            'Secure ride-sharing platform with JWT & bcrypt authentication, real-time ride updates via Socket.io, interactive Google Maps integration, seamless routing with React Router DOM, smooth animations using GSAP, secure API calls via Axios, and an optimized Express.js & MongoDB backend.',
+        href: 'https://github.com/Gautam4513/uber',
         texture: '/textures/project/project1.mp4',
-        logo: '/assets/project-logo1.png',
+        logo: '/assets/uber.webp',
         logoStyle: {
-            backgroundColor: '#2A1816',
+            backgroundColor: '#ffffff',
             border: '0.2px solid #36201D',
             boxShadow: '0px 0px 60px 0px #AA3C304D',
         },
@@ -84,26 +84,31 @@ export const myProjects = [
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'Socket io',
+                path: '/assets/socket.svg',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Node js',
+                path: '/assets/node-js.svg',
+            },
+            {
+                id:5,
+                name:"Three js",
+                path:"/assets/three-js.svg",
             },
         ],
     },
     {
-        title: 'LiveDoc - Real-Time Google Docs Clone',
-        desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+        title: 'Flappy Bird Game',
+        desc: 'A browser-based Flappy Bird game implemented using HTML, CSS, and JavaScript, demonstrating object-oriented programming (OOP) principles.',
         subdesc:
-            'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+            'Responsive game with smooth animations, score tracking, sound effects, and interactive gameplay using HTML5, CSS3, JavaScript (ES6+), and the HTML5 Canvas',
+        href: 'https://github.com/Gautam4513/flappy-bird-game',
         texture: '/textures/project/project2.mp4',
-        logo: '/assets/project-logo2.png',
+        logo: '/assets/project-logo2.jpeg',
         logoStyle: {
-            backgroundColor: '#13202F',
+            backgroundColor: '#ffffff',
             border: '0.2px solid #17293E',
             boxShadow: '0px 0px 60px 0px #2F6DB54D',
         },
@@ -111,32 +116,28 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'HTML5',
+                path: '/assets/html.png',
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'CSS',
+                path: 'assets/css.png',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'JavaScript',
+                path: '/assets/js.svg',
             },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
-            },
+           
         ],
     },
     {
-        title: 'CarePulse - Health Management System',
-        desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+        title: 'Kaleidoscope',
+        desc: 'Kaleidoscope project using HTML, JavaScript, Tailwind CSS, and P5.js to create mesmerizing rangoli-inspired patterns from user-drawn designs.',
         subdesc:
-            'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-        href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+            'The Kaleidoscope project is an interactive digital art tool that transforms user-drawn sketches into intricate and symmetrical rangoli-inspired designs. Built with HTML, JavaScript, Tailwind CSS, and P5.js, it leverages creative coding to generate dynamic and visually appealing patterns in real time. The project enhances artistic expression by mirroring and repeating strokes, turning simple inputs into stunning geometric artwork.',
+        href: 'https://github.com/Gautam4513/Kaleidoscope',
         texture: '/textures/project/project3.mp4',
         logo: '/assets/project-logo3.png',
         logoStyle: {
@@ -150,8 +151,8 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'HTML5',
+                path: '/assets/html.png',
             },
             {
                 id: 2,
@@ -160,26 +161,26 @@ export const myProjects = [
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'JavaScript',
+                path: '/assets/js.svg',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'P5 js',
+                path: '/assets/p5-js.svg',
             },
         ],
     },
     {
-        title: 'Horizon - Online Banking Platform',
-        desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+        title: '✋ Hand Gesture Drawing using ML5.js & P5.js',
+        desc: 'An interactive drawing application using ML5.js and P5.js, featuring real-time hand tracking, gesture-based drawing, smooth and continuous strokes, dynamic gesture recognition, and a fun, user-friendly UI built with HTML, CSS, and JavaScript.',
         subdesc:
-            'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-        href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+            'This project is a web-based hand-tracking application that allows users to draw on a canvas using hand gestures. It leverages ML5.js for hand tracking and P5.js for interactive graphics. Simply show the "👆" (Index finger up) gesture, and the canvas will start drawing as you move your hand.',
+        href: 'https://github.com/Gautam4513/ml5-js-hand-drawing',
         texture: '/textures/project/project4.mp4',
-        logo: '/assets/project-logo4.png',
+        logo: '/assets/project-logo4.jpg',
         logoStyle: {
-            backgroundColor: '#0E1F38',
+            backgroundColor: '#ffffff',
             border: '0.2px solid #0E2D58',
             boxShadow: '0px 0px 60px 0px #2F67B64D',
         },
@@ -187,8 +188,8 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'HTML5',
+                path: '/assets/html.png',
             },
             {
                 id: 2,
@@ -197,26 +198,31 @@ export const myProjects = [
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'JavaScript',
+                path: '/assets/js.svg',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'P5 js',
+                path: '/assets/p5-js.svg',
             },
+            {
+                id:5,
+                name:"ML5 js",
+                path:"/assets/ml5-js.png"
+            }
         ],
     },
     {
-        title: 'Imaginify - AI Photo Manipulation App',
-        desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+        title: 'Solay-system',
+        desc: 'A 3D solar system simulation built with HTML, Tailwind CSS, JavaScript, and Three.js, featuring four planets with realistic orbits, lighting, and smooth animations for an immersive space experience.',
         subdesc:
-            'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-        href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+            'This project showcases a visually engaging 3D solar system with four planets, leveraging Three.js for rendering, Tailwind CSS for styling, and JavaScript for interactivity. It includes dynamic lighting, orbital motion, and smooth animations for an interactive exploration of space.',
+        href: 'https://github.com/Gautam4513/Solay-system',
         texture: '/textures/project/project5.mp4',
         logo: '/assets/project-logo5.png',
         logoStyle: {
-            backgroundColor: '#1C1A43',
+            backgroundColor: '#ffffff',
             border: '0.2px solid #252262',
             boxShadow: '0px 0px 60px 0px #635BFF4D',
         },
@@ -224,8 +230,8 @@ export const myProjects = [
         tags: [
             {
                 id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
+                name: 'HTML5',
+                path: '/assets/html.png',
             },
             {
                 id: 2,
@@ -234,13 +240,13 @@ export const myProjects = [
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'JavaScript',
+                path: '/assets/js.svg',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Three js',
+                path: '/assets/three-js.svg',
             },
         ],
     },

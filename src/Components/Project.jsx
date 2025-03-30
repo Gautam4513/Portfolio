@@ -47,7 +47,7 @@ const Project = () => {
                             ))}
                         </div>
                         <a target='_blank' href={currentProect.href} className='flex items-center gap-2 cursor-pointer text-white-600'>
-                            <p>Check live Site</p>
+                            <p>Check Github Repo</p>
                             <img src="./assets/arrow-up.png" alt="arrow" className='w-3 h-3' />
                         </a>
                     </div>
